@@ -1,7 +1,7 @@
 require_relative 'lib/aliyun_dysms/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "aliyun_dysms"
+  spec.name          = "aliyun_dysms_sdk"
   spec.version       = AliyunDysms::VERSION
   spec.authors       = ["42up"]
   spec.email         = ["foobar@v2up.com"]
