@@ -1,11 +1,6 @@
 require "aliyun_dysms/version"
 require "aliyunsdkcore"
 
-begin
-  require "pry"
-rescue LoadError
-end
-
 module AliyunDysms
   class Configuration
     attr_accessor :access_key_id, :access_key_secret,

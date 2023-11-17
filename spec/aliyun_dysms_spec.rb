@@ -1,6 +1,6 @@
 RSpec.describe AliyunDysms do
   describe "AliyunDysms" do
-    before(:all) do
+    before do
       AliyunDysms.configure do |config|
         config.access_key_id = "test_access_key_id"
         config.access_key_secret = "test_access_key_secret"
